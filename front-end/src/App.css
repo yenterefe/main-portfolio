@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-slide: slide 4s linear forwards;
+
+  @keyframes slide {
+    0% {
+      /* need to play around with this value a bit and check at different breakpoints */
+      transform: translateX(150%)
+    }
+
+    100% {
+      transform: translateX(5%)
+    }
+
+  }
+}
