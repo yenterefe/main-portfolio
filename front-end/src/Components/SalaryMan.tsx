@@ -1,21 +1,12 @@
-import { useState, useEffect } from "react";
+import useDelayRender from "../Hooks/useDelayRender";
 
 const SalaryMan = () => {
-    const [render, setRender] = useState(false)
-
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setRender(true)
-
-        }, 5000);
-
-        return () => clearTimeout(timer)
-    }
-    );
+    // Need to fix time
+    const setDelayRender = useDelayRender({ msSeconds: 5000 })
 
     return (
         <>
-            {render ? <img src="https://dummyimage.com/600x400/eeeeee/fff" className="animate-slide" /> : null}
+            {setDelayRender ? <img src="https://dummyimage.com/600x400/eeeeee/fff" className="animate-slide" /> : null}
         </>
     );
 }

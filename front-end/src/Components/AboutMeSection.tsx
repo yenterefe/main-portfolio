@@ -1,24 +1,13 @@
 import TypingCard from "./TypingCard";
-
-import { useState, useEffect } from "react";
+import useDelayRender from "../Hooks/useDelayRender";
 
 const AboutMeSection = () => {
-    const [render, setRender] = useState(false)
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setRender(true)
-
-        }, 8000);
-
-        return () => clearTimeout(timer)
-    }
-    );
-
+    const setDelayRender = useDelayRender({ msSeconds: 800 })
 
     return (
         <>
-            {render ?
+            {setDelayRender ?
                 <TypingCard
                     blurb=" I’m a software developer with a passion for full stack engineering, XR, Unity/game development, and AI. I enjoy nerding out over anything tech-related, from interactive systems to emerging tools that push the boundaries of how we build and experience software.
 
