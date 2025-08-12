@@ -3,8 +3,8 @@ import keystroke from "../assets/mechanicalKeyboard.wav";
 
 interface TypingProps {
     blurb: string,
-    cursorSpeed: number,
-    typingSpeed: number
+    cursorSpeed?: number,
+    typingSpeed?: number
 }
 
 const TypingCard = (props: TypingProps) => {
