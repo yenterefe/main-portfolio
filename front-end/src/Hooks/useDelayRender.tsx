@@ -4,14 +4,14 @@ interface RenderProps {
     msSeconds: number
 }
 
-const setDelayRender = ({ msSeconds: seconds }: RenderProps) => {
+const setDelayRender = ({ msSeconds }: RenderProps) => {
     const [render, setRender] = useState(false)
 
     useEffect(() => {
         const timer = setTimeout(() => {
             setRender(true)
 
-        }, seconds);
+        }, msSeconds);
 
         return () => clearTimeout(timer)
     }
