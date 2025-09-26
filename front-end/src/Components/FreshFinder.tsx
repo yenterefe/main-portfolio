@@ -1,8 +1,8 @@
 import useDelayRender from "../Hooks/useDelayRender";
 
-const SalaryMan = () => {
-    // Need to fix time
-    const setDelayRender = useDelayRender({ msSeconds: 8050 })
+const FreshFinder = () => {
+
+    const setDelayRender = useDelayRender({ msSeconds: 8000 })
 
     return (
         <>
@@ -11,4 +11,4 @@ const SalaryMan = () => {
     );
 }
 
-export default SalaryMan;
+export default FreshFinder;
