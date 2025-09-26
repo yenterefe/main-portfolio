@@ -1,22 +1,23 @@
-import TypingCard from "./TypingCard";
-import useDelayRender from "../Hooks/useDelayRender";
 
-const AboutMeSection = () => {
+import { useEffect, useState } from "react";
 
-    const setDelayRender = useDelayRender({ msSeconds: 800 })
+const AboutMe = () => {
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const setTimer = setTimeout(() => {
+            setIsVisible(true);
+        }, 6500);
+        return () => {
+            clearTimeout(setTimer);
+        };
+    }, []);
 
     return (
         <>
-            {setDelayRender ?
-                <TypingCard
-                    blurb="I enjoy tackling complex problems and optimizing solutions. In my spare time, I level up my problem-solving skills by studying data structures, algorithms, and contributing to open-source projects"
-                    // Need to fix time
-                    cursorSpeed={80000}
-                    typingSpeed={100}
-                /> : null}
-
+            <p className={`transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"} p-5`}>Self-starter and fast-learning developer with experience in open-source projects, diverse tech stacks, and game/XR development</p>
         </>
     );
 }
 
-export default AboutMeSection;
+export default AboutMe;
