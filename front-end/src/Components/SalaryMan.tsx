@@ -1,8 +1,8 @@
 import useDelayRender from "../Hooks/useDelayRender";
 
 const SalaryMan = () => {
-    // Need to fix time
-    const setDelayRender = useDelayRender({ msSeconds: 8050 })
+
+    const setDelayRender = useDelayRender({ msSeconds: 8020 })
 
     return (
         <>
