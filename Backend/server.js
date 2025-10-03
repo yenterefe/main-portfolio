@@ -80,7 +80,7 @@ app.post("/api/chat", async (request, response) => {
     if (!match) {
         // If no match, reply with fallback
         return response.json({
-            reply: "I don't have that information. Please contact Yen Terefe at <a href=\"mailto:yenterefegmail.com\" class=\"text-blue-500 underline\">yenterefegmail.com</a>"
+            reply: "I don't have that information. Please contact Yen Terefe at yenterefegmail.com"
         });
     }
 
