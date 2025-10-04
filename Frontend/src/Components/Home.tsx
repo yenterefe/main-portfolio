@@ -11,7 +11,7 @@ const home = () => {
             <IntroSection />
             <AboutMe />
             <PortfolioSection />
-            <div className='flex flex-row-reverse'>
+            <div className='flex flex-row-reverse py-12'>
                 <AIButton />
             </div>
 
