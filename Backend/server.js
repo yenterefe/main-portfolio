@@ -73,16 +73,16 @@ const YEN_TEREFE = [
 app.post("/api/chat", async (request, response) => {
     const userMessage = request.body.message;
 
-    const match = YEN_TEREFE.find(item =>
-        userMessage.includes(item.question)
-    );
+    // const match = YEN_TEREFE.find(item =>
+    //     userMessage.includes(item.question)
+    // );
 
-    if (!match) {
-        // If no match, reply with fallback
-        return response.json({
-            reply: "I don't have that information. Please contact Yen Terefe at yenterefegmail.com"
-        });
-    }
+    // if (!match) {
+    //     // If no match, reply with fallback
+    //     return response.json({
+    //         reply: "I don't have that information. Please contact Yen Terefe at yenterefe@gmail.com"
+    //     });
+    // }
 
     try {
         const answer = await client.chat.completions.create({
