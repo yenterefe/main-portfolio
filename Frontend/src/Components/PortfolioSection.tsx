@@ -19,7 +19,7 @@ const PortfolioSection = () => {
     }, []);
 
     return (
-        <div className="aspect-4/1 p-10">
+        <div className="h-[450px] p-10">
             <h2 className={`transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"} text-center`}> Portfolio</h2>
             <div className="flex flex-row space-x-4 p-4">
                 <FreshFinder />
