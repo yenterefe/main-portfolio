@@ -1,5 +1,7 @@
 import GitHub from "../assets/GitHub.png";
+import { Link } from "react-router";
 import LinkedIn from "../assets/LinkedIn.png";
+
 const Header = () => {
     return (
         <>
@@ -7,26 +9,25 @@ const Header = () => {
                 <div className="flex flex-row justify-between py-3 border-t-1 border-black-100 h-[100px]">
                     <ul className="flex flex-row">
                         <li className="px-20 hover:font-bold">
-                            About
+                            <Link to="/Home">Home</Link>
                         </li>
                         <li className="px-20 hover:font-bold">
-                            Blog
+                            <Link to="/Portfolio">Portfolio</Link>
                         </li>
                         <li className="px-20 hover:font-bold">
-                            Portfolio
+                            <Link to="/Blog">Blog </Link>
                         </li>
                         <li className="px-20 hover:font-bold">
-                            Contact
+                            <Link to="/Contact">Contact</Link>
                         </li>
                     </ul>
-
                     <ul className="flex flex-row justify-evenly">
                         <li className="px-20">
-                            <img className="h-5 hover:h-7" src={LinkedIn}
+                            <img className="h-5" src={LinkedIn}
                                 alt="LinkedIn Logo" />
                         </li>
                         <li className="px-20">
-                            <img className="h-7 hover:h-8" src={GitHub} alt="GitHub" />
+                            <img className="h-7" src={GitHub} alt="GitHub" />
                         </li>
                     </ul>
                 </div>
