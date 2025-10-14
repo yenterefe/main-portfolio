@@ -63,7 +63,7 @@ const AIButton = () => {
                             Hi, I am Yen's Chatbot, please ask me questions 😊
                         </li>
                     </ul>
-                    <div className="relative w-full max-w-[550px]">
+                    <div className="Sw-full max-w-[550px]">
                         <ul className="p-[10px] flex flex-col space-y-2">
                             {messages.map((message, index) => (
                                 <li
@@ -77,28 +77,30 @@ const AIButton = () => {
                                 </li>
                             ))}
                         </ul>
-                        <input className="border-2 p-1 border-gray-200 rounded-xl h-9 w-96"
-                            placeholder="Please type your question here"
-                            type="text"
-                            value={input}
-                            onChange={e => {
-                                setInput(e.target.value);
-                            }}
-                            onKeyDown={e => {
-                                if (e.key === "Enter") {
-                                    handleClick();
-                                };
-                            }}
-                        />
-                        <button className="rounded-full border-2 border-gray-100 bg-blue-100 hover:bg-blue-300 p-1 absolute right-0"
-                            onClick={handleClick}><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
-                            </svg>
-                        </button>
+                        <span className="relative p-2">
+                            <input className="border-2 rounded-full py-[12px] px-[169px] bg-white border-gray-300"
+                                placeholder="Please type your question here"
+                                type="text"
+                                value={input}
+                                onChange={e => {
+                                    setInput(e.target.value);
+                                }}
+                                onKeyDown={e => {
+                                    if (e.key === "Enter") {
+                                        handleClick();
+                                    };
+                                }}
+                            />
+                            <button className=" absolute right-2 rounded-full border-2 border-blue-200 bg-blue-100 hover:bg-blue-300 p-1"
+                                onClick={handleClick}><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+                                </svg>
+                            </button>
+                        </span>
                     </div>
                 </div>
             </div > :
-                <button className="border-2 border-blue-100 rounded-full h-20 w-20 bg-blue-50 text-4xl hover:bg-blue-400 hover:h-22 hover:w-22"
+                <button className="border-2 border-blue-100 rounded-full h-20 w-20 bg-blue-50 text-4xl hover:bg-blue-400 hover:scale-125"
                     onClick={OpenChatWindow}>💬</button>}
         </>
     );
