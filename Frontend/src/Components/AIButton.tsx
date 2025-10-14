@@ -47,7 +47,6 @@ const AIButton = () => {
             console.log(error);
         }
 
-
         setInput("");
     };
 
@@ -60,18 +59,18 @@ const AIButton = () => {
                 </div >
                 <div className="flex flex-col justify-center p-2">
                     <ul>
-                        <li className="border-2 rounded-full px-3 py-1 max-w-xs break-words bg-gray-100 border-gray-300 self-start text-left">
+                        <li className="border-2 rounded-full py-[15px] px-[50px] max-w-[550px] bg-gray-100 border-gray-300">
                             Hi, I am Yen's Chatbot, please ask me questions 😊
                         </li>
                     </ul>
-                    <div className="relative">
-                        <ul className="p-2 flex flex-col space-y-2">
+                    <div className="relative w-full max-w-[550px]">
+                        <ul className="p-[10px] flex flex-col space-y-2">
                             {messages.map((message, index) => (
                                 <li
                                     key={index}
-                                    className={`border-2 rounded-full px-3 py-1 max-w-xs break-words ${message.sender === "user"
-                                        ? "bg-blue-100 border-blue-200 self-end text-right"
-                                        : "bg-gray-100 border-gray-300 self-start text-left"
+                                    className={`border-2 rounded-full py-[15px] px-[50px] max-w-[550px] ${message.sender === "user"
+                                        ? "bg-blue-100 border-blue-200"
+                                        : "bg-gray-100 border-gray-300"
                                         }`}
                                 >
                                     {message.text}
