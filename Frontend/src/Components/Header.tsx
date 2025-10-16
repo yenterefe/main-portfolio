@@ -1,6 +1,7 @@
 import GitHub from "../assets/GitHub.png";
-import { Link } from "react-router";
+import { Link as RouterLink } from "react-router";
 import LinkedIn from "../assets/LinkedIn.png";
+import { Link as ScrollLink } from "react-scroll";
 
 const Header = () => {
     return (
@@ -9,16 +10,16 @@ const Header = () => {
                 <div className="flex flex-row justify-between py-3 border-t-1 border-black-100">
                     <ul className="flex flex-row ">
                         <li className="px-20 hover:font-bold h-[50px] w-[50px]">
-                            <Link to="/Home">Home</Link>
+                            <RouterLink to="/Home">Home</RouterLink>
                         </li>
                         <li className="px-20 hover:font-bold h-[50px] w-[50px]">
-                            <Link to="/Portfolio">Portfolio</Link>
+                            <RouterLink to="/Portfolio">Portfolio</RouterLink>
                         </li>
                         <li className="px-20 hover:font-bold h-[50px] w-[50px]">
-                            <Link to="/Blog">Blog </Link>
+                            <RouterLink to="/Blog">Blog </RouterLink>
                         </li>
-                        <li className="px-20 hover:font-bold h-[50px] w-[50px]">
-                            <Link to="/Contact">Contact</Link>
+                        <li className="px-20 cursor-pointer hover:font-bold h-[50px] w-[50px]">
+                            <ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink>
                         </li>
                     </ul>
                     <ul className="flex flex-row justify-evenly">
@@ -31,7 +32,6 @@ const Header = () => {
                     </ul>
                 </div>
             </header >
-
         </>
     );
 };

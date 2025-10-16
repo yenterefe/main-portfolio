@@ -5,7 +5,7 @@ import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import Blog from './Components/Blog.tsx';
 import Portfolio from './Components/Portfolio.tsx';
-import Contact from './Components/Contact.tsx';
+
 
 const router = createBrowserRouter([
   {
@@ -23,11 +23,7 @@ const router = createBrowserRouter([
   {
     path: "/Portfolio",
     element: <Portfolio />
-  },
-  {
-    path: "/Contact",
-    element: <Contact />
-  },
+  }
 ]);
 
 
