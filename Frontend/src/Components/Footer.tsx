@@ -3,8 +3,8 @@ import { Element } from 'react-scroll';
 const Footer = () => {
     return (
         <div className="border-b-1 border-black-100">
-            <div className="px-20 py-3 flex flex-row justify-between">
-                <div className="flex flex-row gap-3">
+            <div className="flex flex-col md:px-20 py-3 md:flex-row justify-between">
+                <div className="flex flex-col md:flex-row md:gap-3">
                     <div className="flex flex-row gap-1">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -30,7 +30,7 @@ const Footer = () => {
                                  2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
                         </svg>
                         <Element name="contact">
-                            <a className="hover:font-bold" href="mailto:yenterefe@gmail.com">yenterefe@gmail.com</a>
+                            <a className="hover:font-bold text-blue-600" href="mailto:yenterefe@gmail.com">yenterefe@gmail.com</a>
                         </Element>
                     </div>
                 </div>
