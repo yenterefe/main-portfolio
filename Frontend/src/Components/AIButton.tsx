@@ -59,7 +59,7 @@ const AIButton = () => {
                 </div >
                 <div className="flex flex-col justify-center p-2">
                     <ul>
-                        <li className="border-2 rounded-full py-[15px] px-[50px] max-w-[550px] bg-gray-100 border-gray-300">
+                        <li className="border-2 rounded-full py-[15px] px-[50px] bg-gray-100 border-gray-300 self-start text-left">
                             Hi, I am Yen's Chatbot, please ask me questions 😊
                         </li>
                     </ul>
@@ -69,8 +69,8 @@ const AIButton = () => {
                                 <li
                                     key={index}
                                     className={`border-2 rounded-full py-[15px] px-[50px] max-w-[550px] ${message.sender === "user"
-                                        ? "bg-blue-100 border-blue-200"
-                                        : "bg-gray-100 border-gray-300"
+                                        ? "bg-blue-100 border-blue-200 self-end text-right"
+                                        : "bg-gray-100 border-gray-300 self-start text-left"
                                         }`}
                                 >
                                     {message.text}
