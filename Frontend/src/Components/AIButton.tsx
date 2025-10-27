@@ -54,7 +54,7 @@ const AIButton = () => {
         <>
             {isOpen ? <div className="border-2 border-gray-200 rounded-sm size-auto">
                 <div className="bg-blue-50 rounded-sm flex flex-row-reverse justify-between">
-                    <button className="rounded-sm w-7 h-7  hover:bg-red-500 hover:text-white" onClick={closeChatWindow}>X</button>
+                    <button className="rounded-sm w-7 h-7 bg-red-500 text-white md:hover:bg-red-500 md:hover:text-white" onClick={closeChatWindow}>X</button>
                     <p className="p-1">Chatbot Assistant</p>
                 </div >
                 <div className="flex flex-col justify-center p-2">
@@ -77,8 +77,8 @@ const AIButton = () => {
                                 </li>
                             ))}
                         </ul>
-                        <span className="relative p-2">
-                            <input className="border-2 rounded-full py-[12px] px-[169px] bg-white border-gray-300"
+                        <span className="relative p-1 md:p-2">
+                            <input className="border-2 rounded-full py-[12px] px-[60px] md:py-[12px] md:px-[169px] bg-white border-gray-300"
                                 placeholder="Please type your question here"
                                 type="text"
                                 value={input}
@@ -91,7 +91,7 @@ const AIButton = () => {
                                     };
                                 }}
                             />
-                            <button className=" absolute right-2 rounded-full border-2 border-blue-200 bg-blue-100 hover:bg-blue-300 p-1"
+                            <button className=" absolute -bottom-2.5 right-0.5 md:right-2 scale-90 rounded-full border-2 border-blue-200 bg-blue-100 hover:bg-blue-300 p-1"
                                 onClick={handleClick}><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
                                 </svg>
@@ -100,8 +100,10 @@ const AIButton = () => {
                     </div>
                 </div>
             </div > :
-                <button className="border-2 border-blue-100 rounded-full h-20 w-20 bg-blue-50 text-4xl hover:bg-blue-400 hover:scale-125"
-                    onClick={OpenChatWindow}>💬</button>}
+                <div>
+                    <button className="border-2 border-blue-100 rounded-full h-20 w-20 bg-blue-50 text-4xl hover:bg-blue-400 hover:scale-125"
+                        onClick={OpenChatWindow}>💬</button>
+                </div>}
         </>
     );
 };

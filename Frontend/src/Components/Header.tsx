@@ -55,7 +55,7 @@ const Header = () => {
                     {
                         isDisplayed ? <div>
                             <div className="absolute h-[300Px] w-[300px] bg-white border-2 border-gray-300 rounded-md">
-                                <div className="bg-blue-100 border-2 border-blue-200">
+                                <div className="bg-blue-100 border-2 border-blue-200 flex flex-row-reverse">
                                     {isDisplayed ?
                                         <button className="rounded-sm w-7 h-7 bg-red-500 text-white" onClick={handleClosed} >X</button> : <button className="md:hidden" onClick={handleDisplay}>
                                             <svg
@@ -80,7 +80,6 @@ const Header = () => {
                             </div>
                         </div> : null
                     }
-
                     <ul className="flex flex-row justify-evenly">
                         <li className="px-20">
                             <img className="h-6 hover:scale-125" src={LinkedIn} alt="LinkedIn logo" />
@@ -89,7 +88,6 @@ const Header = () => {
                             <img className="h-8 hover:scale-125" src={GitHub} alt="GitHub logo" />
                         </li>
                     </ul>
-
                 </div>
             </header >
         </>
