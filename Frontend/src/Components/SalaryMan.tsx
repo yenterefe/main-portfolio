@@ -5,7 +5,7 @@ const SalaryMan = () => {
                 <img className="h-80" src="https://dummyimage.com/600x400/eeeeee/fff" />
             </div>
             <div className="text-center">
-                <p className="h-80">Salary Man</p>
+                <p className="h-80 p-2 text-slate-700">Salary Man</p>
             </div>
         </div>
     );
