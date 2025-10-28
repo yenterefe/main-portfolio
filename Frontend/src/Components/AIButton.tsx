@@ -68,7 +68,7 @@ const AIButton = () => {
                             {messages.map((message, index) => (
                                 <li
                                     key={index}
-                                    className={`border-2 rounded-full py-[15px] px-[50px] max-w-[550px] ${message.sender === "user"
+                                    className={`border-2 rounded-full py-[30px] px-[55px] md:py-[15px] md:px-[50px] max-w-[550px] ${message.sender === "user"
                                         ? "bg-blue-100 border-blue-200 self-end text-right"
                                         : "bg-gray-100 border-gray-300 self-start text-left"
                                         }`}
