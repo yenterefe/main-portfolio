@@ -54,7 +54,7 @@ const AIButton = () => {
         <>
             {isOpen ? <div className="border-2 border-gray-200 rounded-sm size-auto">
                 <div className="bg-blue-50 rounded-sm flex flex-row-reverse justify-between">
-                    <button className="rounded-sm w-7 h-7 bg-red-500 text-white md:hover:bg-red-500 md:hover:text-white" onClick={closeChatWindow}>X</button>
+                    <button className="rounded-sm w-7 h-7 bg-red-500 text-white md:bg-blue-50 md:text-slate-600 md:hover:bg-red-500 md:hover:text-white" onClick={closeChatWindow}>X</button>
                     <p className="p-1">Chatbot Assistant</p>
                 </div >
                 <div className="flex flex-col justify-center p-2">

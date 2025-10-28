@@ -15,8 +15,8 @@ const AboutMe = () => {
 
     return (
         <>
-            <p className={`transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"} px-20 py-5`}>Self-starter and fast-learning developer with experience in open-source projects, diverse tech stacks, and game/XR development.</p>
-            <p className={`transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"} px-20 py-5`}>For more information, chat with my chatbot <span className="text-2xl">💬</span></p>
+            <p className={`transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"} px-20 py-5 text-slate-600`}>Self-starter and fast-learning developer with experience in open-source projects, diverse tech stacks, and game/XR development.</p>
+            <p className={`transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"} px-20 py-5 text-slate-600`}>For more information, ask my chatbot <span className="text-2xl">💬</span></p>
         </>
     );
 }

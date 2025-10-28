@@ -9,10 +9,14 @@ const home = () => {
     return (
         <div className="p-4">
             <Header />
-            <IntroSection />
-            <AboutMe />
-            <PortfolioSection />
-            <div className='flex flex-row-reverse py-12'>
+            <div className='bg-slate-50 rounded-s-sm'>
+                <IntroSection />
+                <AboutMe />
+            </div>
+            <div className='py-4 shadow-sm'>
+                <PortfolioSection />
+            </div>
+            <div className='flex flex-row-reverse py-12 bg-slate-50 rounded-s-sm'>
                 <AIButton />
             </div>
             <Footer />

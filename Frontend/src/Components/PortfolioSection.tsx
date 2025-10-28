@@ -36,9 +36,9 @@ const PortfolioSection = () => {
     }
 
     return (
-        <div className={`h-[450px] p-10 transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"} text-center`}>
-            <h2> Portfolio Highlights</h2>
-            <div className="hidden md:flex flex-row gap-4 p-4">
+        <div className={`h-[450px] transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"} text-center`}>
+            <h2 className="font-semibold py-3 text-slate-600"> Portfolio Highlights</h2>
+            <div className="hidden md:flex flex-row justify-center gap-4 p-4">
                 {portfolios.map((portfolio, index) => <div key={index}> {portfolio} </div>)}
             </div>
             <div className="flex flex-row gap-4 p-4 md:hidden">
