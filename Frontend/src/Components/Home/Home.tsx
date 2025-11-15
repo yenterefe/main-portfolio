@@ -1,9 +1,9 @@
-import Header from './Header';
+import Header from '../Header';
 import IntroSection from './IntroSection';
 import AboutMe from './AboutMeSection';
 import PortfolioSection from './PortfolioSection';
 import AIButton from './AIButton';
-import Footer from './Footer';
+import Footer from '../Footer';
 
 const home = () => {
     return (

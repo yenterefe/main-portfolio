@@ -101,7 +101,7 @@ const AIButton = () => {
                 </div>
             </div > :
                 <div>
-                    <button className="border-2 border-blue-100 rounded-full h-20 w-20 bg-blue-50 text-4xl hover:bg-blue-400 hover:scale-125"
+                    <button className=" cursor-pointer border-2 border-blue-100 rounded-full h-20 w-20 bg-blue-50 text-4xl hover:bg-blue-400 hover:scale-125"
                         onClick={OpenChatWindow}>💬</button>
                 </div>}
         </>
