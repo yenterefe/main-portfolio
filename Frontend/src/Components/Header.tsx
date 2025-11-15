@@ -82,10 +82,10 @@ const Header = () => {
                     }
                     <ul className="flex flex-row justify-evenly">
                         <li className="px-20 py-2">
-                            <img className="h-6 hover:scale-125" src={LinkedIn} alt="LinkedIn logo" />
+                            <img className="h-6 hover:scale-125 cursor-pointer" src={LinkedIn} alt="LinkedIn logo" />
                         </li>
                         <li className="px-20 py-2">
-                            <img className="h-8 hover:scale-125" src={GitHub} alt="GitHub logo" />
+                            <img className="h-8 hover:scale-125 cursor-pointer" src={GitHub} alt="GitHub logo" />
                         </li>
                     </ul>
                 </div>

@@ -1,10 +1,10 @@
-import TypingCard from "./TypingCard";
+import TypingCard from "../TypingCard";
 
-const IntroSection = () => {
+const BlogIntroSection = () => {
     return (
         <div className="px-20 py-5 text-slate-600">
             <TypingCard
-                blurb="Hi there! I am Yen and Welcome to my portfolio website!"
+                blurb="Welcome to my blogs!"
                 cursorSpeed={7000}
                 typingSpeed={100}
             />
@@ -12,4 +12,4 @@ const IntroSection = () => {
     );
 }
 
-export default IntroSection;
+export default BlogIntroSection;

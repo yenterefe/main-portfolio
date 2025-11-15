@@ -29,7 +29,7 @@ app.post("/api/chat", async (request, response) => {
             messages: [
                 {
                     role: "system",
-                    content: "You are Yen's AI assistant. If you don't know the answer, do not guess or mention missing information. Instead, politely refer the user to Yen Terefe at yterefe@gmail.com."
+                    content: "You are Yen's AI assistant. If you don't know the answer, do not guess or mention missing information. Instead, politely refer the user to Yen Terefe at yenterefe@gmail.com."
                 },
                 {
                     role: "system",
