@@ -1,10 +1,12 @@
 import { StrictMode } from 'react';
-import { createBrowserRouter } from "react-router";
-import { RouterProvider } from "react-router/dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import Blog from './Components/Blog/Blog.tsx';
 import Portfolio from './Components/Portfolio.tsx';
+import MyJourney from './Components/Blog/MyJourney.tsx'
+import MyWebsite from './Components/Blog/MyWebsite.tsx';
+import Routine from './Components/Blog/Routine.tsx';
 
 
 const router = createBrowserRouter([
@@ -23,6 +25,18 @@ const router = createBrowserRouter([
   {
     path: "/Portfolio",
     element: <Portfolio />
+  },
+  {
+    path: "/MyJourney",
+    element: <MyJourney />
+  },
+  {
+    path: "/MyWebsite",
+    element: < MyWebsite/>
+  },
+  {
+    path: "/MyRoutine",
+    element: <Routine/>
   }
 ]);
 

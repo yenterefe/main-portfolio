@@ -1,4 +1,4 @@
-import Header from "../Header";
+import HeaderBlog from "./HeaderBlog";
 import Footer from "../Footer";
 import BlogIntroSection from "./BlogIntroSection";
 import AboutBlog from "./AboutBlogSection";
@@ -8,15 +8,15 @@ const Blog = () => {
     return (
         <>
         <div className="p-4">
-            <Header />
+            <HeaderBlog />
                <div className='bg-slate-50 rounded-s-sm'>
                 <BlogIntroSection />
                 <AboutBlog />
                 </div>
-            <div className='py-4 shadow-sm'>
+            <div className='pt-10 pb-16 shadow-sm'>
                 <BlogSection />
             </div>
-             <div className='flex flex-row-reverse py-12 bg-slate-50 rounded-s-sm'></div>
+             <div className='flex flex-row-reverse py-16 bg-slate-50 rounded-s-sm'></div>
             <Footer />
         </div>
         </>

@@ -1,4 +1,4 @@
-import Header from '../Header';
+import HeaderHome from './HeaderHome';
 import IntroSection from './IntroSection';
 import AboutMe from './AboutMeSection';
 import PortfolioSection from './PortfolioSection';
@@ -8,7 +8,7 @@ import Footer from '../Footer';
 const home = () => {
     return (
         <div className="p-4">
-            <Header />
+            <HeaderHome />
             <div className='bg-slate-50 rounded-s-sm'>
                 <IntroSection />
                 <AboutMe />

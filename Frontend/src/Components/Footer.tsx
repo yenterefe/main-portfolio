@@ -3,7 +3,7 @@ import { Element } from 'react-scroll';
 const Footer = () => {
     return (
         <div className="bg-gradient-to-r from-white via-yellow-100 to-blue-200 rounded-sm">
-            <div className="flex flex-col md:px-20 py-3 md:flex-row justify-between">
+            <div  className="flex flex-col md:px-20 py-3 md:flex-row justify-between">
                 <div className="flex flex-col md:flex-row md:gap-3">
                     <div className="flex flex-row gap-1">
                         <svg xmlns="http://www.w3.org/2000/svg"
