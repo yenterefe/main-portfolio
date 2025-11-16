@@ -4,7 +4,7 @@ const Smithsonian = () => {
     return (
         <div>
             <div className="hover:scale-105">
-                <video className="cursor-pointer h-48 md:h-80" src="#" controls
+                <video className="cursor-pointer h-48 md:h-80 rounded-md" src="#" controls
                     poster="https://dummyimage.com/600x400/eeeeee/fff" />
             </div>
             <div className="text-center">

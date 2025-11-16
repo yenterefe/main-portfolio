@@ -91,8 +91,8 @@ const AIButton = () => {
                                     };
                                 }}
                             />
-                            <button className=" absolute -bottom-2.5 right-0.5 md:right-2 scale-90 rounded-full border-2 border-blue-200 bg-blue-100 hover:bg-blue-300 p-1"
-                                onClick={handleClick}><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" viewBox="0 0 24 24">
+                            <button className=" absolute -bottom-2 md:-bottom-1 right-2 md:right-3 scale-90 rounded-full border-2 border-blue-200 bg-blue-100 hover:bg-blue-300"
+                                onClick={handleClick}><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" viewBox="-3 0 26 26">
                                     <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
                                 </svg>
                             </button>
