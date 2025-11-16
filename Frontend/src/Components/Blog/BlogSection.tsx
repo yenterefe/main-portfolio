@@ -7,9 +7,9 @@ const BlogSection = () => {
     const [index, setIndex] = useState(0);
 
     const buttons = [
-        <BlogButton title="How My Journey Started" />,
-        <BlogButton title="My Website"/>,
-        <BlogButton title="My Daily Routine" />
+        <BlogButton link="/MyJourney" title="How My Journey Started" />,
+        <BlogButton link="/MyWebsite" title="My Website"/>,
+        <BlogButton link="/MyRoutine" title="My Daily Routine" />
     ]
 
     useEffect(() => {

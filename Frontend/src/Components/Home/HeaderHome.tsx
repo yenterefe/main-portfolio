@@ -1,11 +1,11 @@
-import GitHub from "../assets/GitHub.png";
+import GitHub from "../../assets/GitHub.png";
 import { Link as RouterLink } from "react-router";
-import LinkedIn from "../assets/LinkedIn.png";
+import LinkedIn from "../../assets/LinkedIn.png";
 import { Link as ScrollLink } from "react-scroll";
 import { useState } from "react";
-import ListComponentSmall from "./ListComponentSmall";
+import ListComponentSmall from "../../Components/ListComponentSmall";
 
-const Header = () => {
+const HeaderHome = () => {
     const [isDisplayed, setIsDisplayed] = useState(false);
 
     const handleDisplay = () => {
@@ -20,9 +20,9 @@ const Header = () => {
         <>
             <header>
                 <div className="flex flex-row justify-between py-3 bg-gradient-to-r from-blue-200 via-yellow-100 to-white rounded-sm">
-                    <ul className="hidden md:flex flex-row items-center">
+                    <ul className="hidden md:flex flex-row">
                         <li className="text-slate-600 px-20 py-2 hover:font-bold h-[50px] w-[50px]">
-                            <RouterLink to="/Home">Home</RouterLink>
+                            <RouterLink className="border-b-2 border-slate-700" to="/Home">Home</RouterLink>
                         </li>
                         <li className="text-slate-600 px-20 py-2 hover:font-bold h-[50px] w-[50px]">
                             <RouterLink to="/Portfolio">Portfolio</RouterLink>
@@ -95,4 +95,4 @@ const Header = () => {
 };
 
 
-export default Header;
+export default HeaderHome;
