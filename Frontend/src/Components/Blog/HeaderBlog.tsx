@@ -80,7 +80,7 @@ const HeaderBlog = () => {
                             </div>
                         </div> : null
                     }
-                    <ul className="flex flex-row justify-evenly">
+                    <ul className="hidden md:flex flex-row justify-evenly">
                         <li className="px-20 py-2">
                             <img className="h-6 hover:scale-125 cursor-pointer" src={LinkedIn} alt="LinkedIn logo" />
                         </li>
