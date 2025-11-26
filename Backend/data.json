@@ -1,58 +1,58 @@
 [
-   {
-      "question": "Who are you?",
-      "answer": "My name is Yeneneh Terefe, and I am a software engineer. I Graduate with a B.S. in International Marketing, an M.A. in Cultural Heritage Management (Anthropology), and an M.H.P in Historic Preservation with a focus on digital technology (VR and 3D laser scanning). Holder of a Certificate in Building Information Modeling (BIM) and Unity Certified User: Programmer credential. Developer experienced in web engineering, XR/VR, game development, open source contributions, and structured algorithm practice."
-   },
-   {
-      "question": "What is your educational background?",
-      "answer": " Graduate with a B.A. in International Marketing, an M.A. in Cultural Heritage Management (Anthropology), and an M.H.P in Historic Preservation with a focus on digital technology (VR and 3D laser scanning). Holder of a Certificate in Building Information Modeling (BIM) and Unity Certified User: Programmer credential. Full stack bootcamp graduate in 2024."
-   },
-   {
-      "question": "How did you learn programming?",
-      "answer": " Self-taught in C# for Unity XR application development and learned full stack development in a bootcamp."
-   },
-   {
-      "question": "How many years of programming?",
-      "answer": "since 2020"
-   },
-   {
-      "question": "What programming languages do you know?",
-      "answer": "JavaScript, TypeScript, Python, and C#."
-   },
-   {
-      "question": "What frontend technologies do you know?",
-      "answer": "HTML, CSS, JavaScript, TypeScript, React, Tailwind, and Jest for unit testing."
-   },
-   {
-      "question": "What backend technologies do you know?",
-      "answer": "Node.js, REST APIs, Google API, Mongoose, and Firebase."
-   },
-   {
-      "question": "What experience do you have in game development?",
-      "answer": "Unity (C#), Vuforia, AR/VR prototyping, Smithsonian XR fellowship projects, and game development including publishing an indie Unity game on Itch.io and Google Play."
-   },
-   {
-      "question": "Tell me about your open-source work.",
-      "answer": "Contributor to Columbus Code & Coffee open-source project, building reusable React components aligned with Figma designs, styled with Tailwind CSS, tested with Jest, and building an automated email reply system using Firebase."
-   },
-   {
-      "question": "Tell me about your Smithsonian XR fellowship project.",
-      "answer": "Prototyped AR/VR applications in Unity for cultural heritage, including note-taking features and Vuforia scanning workflows."
-   },
-   {
-      "question": "Tell me about your game projects.",
-      "answer": "Developed 'Salary Man,' an indie top-down Unity game published on Itch.io and Google Play, demonstrating end-to-end development and release."
-   },
-   {
-      "question": "What problem-solving approaches do you use?",
-      "answer": "Structured practice organized into sets by algorithmic pattern (two-pointers, stacks, trees, prefix sums, sliding window, etc.). Emphasis on templates, readability, testable units, and well-documented solutions."
-   },
-   {
-      "question": "What are your core values as a developer?",
-      "answer": "Open source collaboration, use of AR/VR for cultural heritage, accessibility and inclusivity in design, and continuous improvement through reflection and iteration."
-   },
-   {
-      "question": "What are your career highlights?",
-      "answer": "Revitalized an open-source site with reusable tested components, built and shipped an indie game, developed XR prototypes for the Smithsonian, and designed and published a portfolio website, and developed a full-stack food finder app to support residents in communities with limited access to fresh and affordable food"
-   }
+  {
+    "question": "Who are you?",
+    "answer": "My name is Yeneneh Terefe, and I am a software engineer. I Graduate with a B.S. in International Marketing, an M.A. in Cultural Heritage Management (Anthropology), and an M.H.P in Historic Preservation with a focus on digital technology (VR and 3D laser scanning). Holder of a Certificate in Building Information Modeling (BIM) and Unity Certified User: Programmer credential. Developer experienced in web engineering, XR/VR, game development, open source contributions, and structured algorithm practice."
+  },
+  {
+    "question": "What is your educational background?",
+    "answer": " Graduate with a B.A. in International Marketing, an M.A. in Cultural Heritage Management (Anthropology), and an M.H.P in Historic Preservation with a focus on digital technology (VR and 3D laser scanning). Holder of a Certificate in Building Information Modeling (BIM) and Unity Certified User: Programmer credential. Full stack bootcamp graduate in 2024."
+  },
+  {
+    "question": "How did you learn programming?",
+    "answer": " Self-taught in C# for Unity XR application development and learned full stack development in a bootcamp."
+  },
+  {
+    "question": "How many years of programming?",
+    "answer": "since 2020"
+  },
+  {
+    "question": "What programming languages do you know?",
+    "answer": "JavaScript, TypeScript, Python, and C#."
+  },
+  {
+    "question": "What frontend technologies do you know?",
+    "answer": "HTML, CSS, JavaScript, TypeScript, React, Tailwind, and Jest for unit testing."
+  },
+  {
+    "question": "What backend technologies do you know?",
+    "answer": "Node.js, REST APIs, Google API, Mongoose, and Firebase."
+  },
+  {
+    "question": "What experience do you have in game development?",
+    "answer": "Unity (C#), Vuforia, AR/VR prototyping, Smithsonian XR fellowship projects, and game development including publishing an indie Unity game on Itch.io and Google Play."
+  },
+  {
+    "question": "Tell me about your open-source work.",
+    "answer": "Contributor to Columbus Code & Coffee open-source project, building reusable React components aligned with Figma designs, styled with Tailwind CSS, tested with Jest, and building an automated email reply system using Firebase."
+  },
+  {
+    "question": "Tell me about your Smithsonian XR fellowship project.",
+    "answer": "Prototyped AR/VR applications in Unity for cultural heritage, including note-taking features and Vuforia scanning workflows."
+  },
+  {
+    "question": "Tell me about your game projects.",
+    "answer": "Developed 'Salary Man,' an indie top-down Unity game published on Itch.io and Google Play, demonstrating end-to-end development and release."
+  },
+  {
+    "question": "What problem-solving approaches do you use?",
+    "answer": "Structured practice organized into sets by algorithmic pattern (two-pointers, stacks, trees, prefix sums, sliding window, etc.). Emphasis on templates, readability, testable units, and well-documented solutions."
+  },
+  {
+    "question": "What are your core values as a developer?",
+    "answer": "Open source collaboration, use of AR/VR for cultural heritage, accessibility and inclusivity in design, and continuous improvement through reflection and iteration."
+  },
+  {
+    "question": "What are your career highlights?",
+    "answer": "Revitalized an open-source site with reusable tested components, built and shipped an indie game, developed XR prototypes for the Smithsonian, and designed and published a portfolio website, and developed a full-stack food finder app to support residents in communities with limited access to fresh and affordable food"
+  }
 ]

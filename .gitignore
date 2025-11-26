@@ -2,3 +2,5 @@
 .env
 Backend/.env
 Frontend/.env
+.prettierignore
+

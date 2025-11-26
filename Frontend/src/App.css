@@ -6,12 +6,11 @@
   @keyframes slide {
     0% {
       /* need to play around with this value a bit and check at different breakpoints */
-      transform: translateX(150%)
+      transform: translateX(150%);
     }
 
     100% {
-      transform: translateX(5%)
+      transform: translateX(5%);
     }
-
   }
 }
