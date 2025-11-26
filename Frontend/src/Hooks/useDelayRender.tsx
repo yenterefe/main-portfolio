@@ -1,23 +1,21 @@
 import { useState, useEffect } from "react";
 
 interface RenderProps {
-    msSeconds: number
+  msSeconds: number;
 }
 
 const setDelayRender = ({ msSeconds }: RenderProps) => {
-    const [render, setRender] = useState(false)
+  const [render, setRender] = useState(false);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setRender(true)
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setRender(true);
+    }, msSeconds);
 
-        }, msSeconds);
+    return () => clearTimeout(timer);
+  });
 
-        return () => clearTimeout(timer)
-    }
-    );
-
-    return render
-}
+  return render;
+};
 
 export default setDelayRender;
